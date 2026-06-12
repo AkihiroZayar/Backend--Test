@@ -24,7 +24,7 @@ app.use(express.json());
 const ALLOWED_ORIGINS = [
   "http://localhost:5500",
   "http://127.0.0.1:5500",
-  "https://AkihiroZayar.github.io",
+ "https://akihirozayar.github.io",
 ];
 app.use(
   cors({
